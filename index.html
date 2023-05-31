@@ -11,59 +11,10 @@
   </header>
   <nav>
     <ul>
-      <li><a href="#uvod">Domů</a></li>
-      <li><a href="#galerie">Fotogalerie</a></li>
-      <li><a href="#formular">Formulář</a></li>
+      <li><a href="uvod.html">Domů</a></li>
+      <li><a href="galerie.html">Fotogalerie</a></li>
+      <li><a href="formular.html">Formulář</a></li>
     </ul>
   </nav>
-  <div id="uvod">
-    <h2>Vítejte na našem webu s recepty!</h2>
-    <p>Zde najdete skvělé recepty na lahodná jídla. Vyberte si některou z následujících stránek:</p>
-    <ul>
-      <li><a href="#galerie">Fotogalerie receptů</a></li>
-      <li><a href="#formular">Zaslání vlastního receptu</a></li>
-    </ul>
-  </div>
-  <div id="galerie">
-    <h2>Fotogalerie receptů</h2>
-    <div class="gallery">
-      <img src="obrazek1.jpg" alt="Recept 1">
-      <img src="obrazek2.jpg" alt="Recept 2">
-      <img src="obrazek3.jpg" alt="Recept 3">
-    </div>
-  </div>
-  <div id="formular">
-    <h2>Zaslání vlastního receptu</h2>
-    <form action="submit.php" method="POST">
-      <label for="name">Jméno:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="email" required>
-      <label for="recipe">Recept:</label>
-      <textarea id="recipe" name="recipe" required></textarea>
-      <input type="submit" value="Odeslat">
-    </form>
-  </div>
-  <div id="potvrzeni">
-    <h2>Formulář byl úspěšně odeslán!</h2>
-    <p>Děkujeme za zaslání vašeho receptu. Budeme ho brzy zpracovávat.</p>
-  </div>
-  <input type="radio" id="tab-uvod" name="tab-group" checked>
-  <input type="radio" id="tab-galerie" name="tab-group">
-  <input type="radio" id="tab-formular" name="tab-group">
-  <input type="radio" id="tab-potvrzeni" name="tab-group">
-  
-  <div class="tab-content" id="content-uvod">
-    <label for="tab-uvod" class="tab-label">Domů</label>
-  </div>
-  <div class="tab-content" id="content-galerie">
-    <label for="tab-galerie" class="tab-label">Fotogalerie</label>
-  </div>
-  <div class="tab-content" id="content-formular">
-    <label for="tab-formular" class="tab-label">Formulář</label>
-  </div>
-  <div class="tab-content" id="content-potvrzeni">
-    <label for="tab-potvrzeni" class="tab-label">Potvrzení</label>
-  </div>
 </body>
 </html>
