@@ -19,10 +19,11 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-  display: inline;
   margin-right: 10px;
 }
 
@@ -31,9 +32,22 @@ nav ul li a {
   color: #333;
 }
 
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
 h1, h2, h3 {
   margin: 0;
   padding: 0;
+}
+
+.gallery img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .recipe-list {
@@ -43,10 +57,4 @@ h1, h2, h3 {
 
 .recipe-list li {
   margin-bottom: 20px;
-}
-
-.gallery img {
-  width: 300px;
-  height: auto;
-  margin-bottom: 10px;
 }
